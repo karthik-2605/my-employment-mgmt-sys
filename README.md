@@ -1,6 +1,6 @@
-##Employee Management System  
+## Employee Management System  
 
-#A simple Employee management system built by using HTML, CSS, JS, NodeJS, Express and MySQL 
+# A simple Employee management system built by using HTML, CSS, JS, NodeJS, Express and MySQL 
 
 ## Features
 - Add, update, delete, and search employee records.
