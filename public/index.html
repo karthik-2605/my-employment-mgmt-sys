@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Employee Management</title>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+	<div class="employee">
+		<div class="employee_container">
+			<div class="employee_heading">
+				<h1>Employee Data Entry Automation Software</h1>
+			</div>
+			
+			
+			
+			
+
+			<div class="employee_form">
+				<form id="employeeForm">
+					<input class = "emp_span" type="text" name="search_id" placeholder="Search ID">
+					<input class = "emp_span" type="text" name="emp_name" placeholder="Employee Name">
+					<select class = "emp_span" name="gender">
+						<option value="" disabled selected>Select Gender</option>
+						<option value="male">Male</option>
+						<option value="female">Female</option>
+						<option value="other">Other</option>
+					</select>
+					<input class = "emp_span" type="email" name="email" placeholder="Email Address">
+					<select class = "emp_span" name="dept">
+						<option value="" disabled selected>Select Department</option>
+						<option value="it">IT</option>
+						<option value="hr">HR</option>
+						<option value="accounts">Accounts</option>
+						<option value="sales">Sales</option>
+						<option value="marketing">Marketing</option>
+						<option value="business">Business Development</option>
+						
+					</select>
+					<textarea class = "emp_span" name="address" rows="6" placeholder="Address"></textarea>										
+				</form>
+			</div>
+
+			<div class="buttons">
+				<button id="js_btn_search" type="button" class="btn btn_search">Search</button>
+				<button id="js_btn_save" type="button" class="btn btn_save">Save</button>
+				<button id="js_btn_update" type="submit" class="btn btn_modify">Modify</button>
+				<button id="js_btn_delete" type="button" class="btn btn_delete">Delete</button>
+				<button id="js_btn_clear" type="submit" class="btn btn_clear">Clear</button>
+			</div>
+			
+		</div>
+	</div>
+
+
+	<script src="./app.js"></script>
+</body>
+</html>

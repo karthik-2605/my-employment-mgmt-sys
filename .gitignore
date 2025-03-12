@@ -1,0 +1,9 @@
+.env
+.env.local
+.env.production
+.env.*  # Any other env variations
+
+
+node_modules/
+npm-debug.log
+.DS_Store 
